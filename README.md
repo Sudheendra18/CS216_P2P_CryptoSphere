@@ -95,23 +95,6 @@ The application presents a menu with the following options:
 ║ 0. Quit Application                      ║
 ╚══════════════════════════════════════════╝
 ```
-### Key Components
-
-1. **Network Management**
-   - Peer registration
-   - Activity monitoring
-   - Connection handling
-   - Message routing
-
-2. **Threading Model**
-   - Server thread
-   - Monitoring thread
-   - Message handling threads
-
-3. **Message Protocol**
-   - Header format: `<IP:PORT>`
-   - Team identifier: `@ <TEAM>`
-   - End marker: `<end>`
 
 ## Future Enhancements
 
