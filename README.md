@@ -67,7 +67,6 @@ python --version  # Should be Python 3.x
   - socket
   - threading
 
-
 ## Usage
 
 ### Starting the Application
@@ -144,7 +143,6 @@ The application presents a menu with the following options:
    - Team identifier: `@ <TEAM>`
    - End marker: `<end>`
 
-
 ## Future Enhancements
 
 1. **Security Features**
@@ -162,6 +160,9 @@ The application presents a menu with the following options:
    - Group chat features
    - Message persistence
    - Offline messaging
+
+## DEMO
+https://github.com/user-attachments/assets/7ea966f6-928b-4354-aaee-8a47060fb92d
 
 ## Support
 
