@@ -5,7 +5,7 @@
 A robust peer-to-peer TCP networking application that enables secure communication between network peers with features like real-time messaging, peer monitoring, and broadcast capabilities.
 
 ## Project Details
-- **Project Name**: CRYPTOSPHERE
+- **Team Name**: CRYPTOSPHERE
 - **Main File**: P2P_TCP.py
 - **Type**: Peer-to-Peer Network Application
 - **Protocol**: TCP/IP
