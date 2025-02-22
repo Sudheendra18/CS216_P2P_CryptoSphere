@@ -95,36 +95,6 @@ The application presents a menu with the following options:
 ║ 0. Quit Application                      ║
 ╚══════════════════════════════════════════╝
 ```
-
-### Feature Usage
-
-1. **Starting a Messaging Session**
-   - Select option 1
-   - Enter recipient IP
-   - Enter recipient port
-   - Type 'exit' to end session
-
-2. **Viewing Active Peers**
-   - Select option 2
-   - Displays list with connection times
-
-3. **Connecting to Peers**
-   - Select option 3
-   - Automatically sends connection requests
-
-4. **Broadcasting Messages**
-   - Select option 4
-   - Enter message to send to all peers
-
-5. **Direct Messaging**
-   - Select option 5
-   - Choose peer from list
-   - Enter message
-
-6. **Removing Peers**
-   - Select option 6
-   - Select peer to remove
-
 ### Key Components
 
 1. **Network Management**
