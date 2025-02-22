@@ -1,5 +1,4 @@
 # CryptoSphere
-BLOCKCHAIN ASSIGNMENT1
 # Project  Peer-to-Peer Chat Application 
 ### Using TCP
 
@@ -8,7 +7,6 @@ A robust peer-to-peer TCP networking application that enables secure communicati
 ## Project Details
 - **Project Name**: CRYPTOSPHERE
 - **Main File**: P2P_TCP.py
-- **Version**: 1.0
 - **Type**: Peer-to-Peer Network Application
 - **Protocol**: TCP/IP
 
@@ -17,15 +15,24 @@ A robust peer-to-peer TCP networking application that enables secure communicati
 - Vikas (230002023)
 - Rajareddy (230001054)
 
-## Table of Contents
-1. [Features](#features)
-2. [Technical Specifications](#technical-specifications)
-3. [Installation](#installation)
-4. [Usage](#usage)
-5. [Architecture](#architecture)
-6. [Error Handling](#error-handling)
-7. [Contributing](#contributing)
-8. [License](#license)
+
+## Installation
+
+1. **Clone the Repository**
+```bash
+git clone https://github.com/Sudheendra18/CS216_P2P_CryptoSphere.git
+cd CS216_P2P_CryptoSphere
+```
+
+2. **Run the Application**
+```bash
+python P2P_TCP.py
+```
+
+3. **Verify Python Installation**
+```bash
+python --version  # Should be Python 3.x
+```
 
 ## Features
 
@@ -33,7 +40,6 @@ A robust peer-to-peer TCP networking application that enables secure communicati
 1. **Real-time TCP Communication**
    - Reliable TCP-based peer-to-peer messaging
    - Automatic connection management
-   - Dynamic port allocation (1024-65535)
    - Configurable socket buffer size (1024 bytes)
 
 2. **Peer Discovery and Management**
@@ -41,48 +47,17 @@ A robust peer-to-peer TCP networking application that enables secure communicati
    - Dynamic peer registration system
    - Real-time peer activity monitoring
    - Automatic inactive peer cleanup (10-minute timeout)
-   - Support for mandatory network peers
-   - Thread-safe peer management
-
-3. **Messaging Capabilities**
-   - Direct peer-to-peer messaging
-   - Broadcast messaging to all connected peers
-   - Continuous messaging sessions
-   - Formatted message display with timestamps
-   - Team identifier integration in messages
-   - Message end markers for integrity
-   - Connection request protocol
-   - Disconnect notification system
 
 ### Server Features
 1. **Multi-threaded Server Architecture**
    - Concurrent connection handling
    - Configurable server backlog (5 connections)
    - Server timeout handling (1-second check interval)
-   - Graceful server shutdown
 
 2. **Connection Management**
-   - Connection timeout handling (5 seconds)
    - Automatic port conflict resolution
    - Socket reuse address support
    - Server backlog management
-
-### User Interface Features
-1. **Interactive Console Interface**
-   - ASCII-art based menu system
-   - Real-time status updates
-   - Formatted message display
-   - Active peer listing with timestamps
-   - Error notifications and system messages
-
-2. **Menu Options**
-   - Start messaging session
-   - View active peers
-   - Connect to peers
-   - Broadcast message
-   - Send message to specific friend
-   - Remove connected peer
-   - Graceful application exit
 
 ## Technical Specifications
 
@@ -91,45 +66,7 @@ A robust peer-to-peer TCP networking application that enables secure communicati
 - Standard library modules:
   - socket
   - threading
-  - time
-  - datetime
-  - sys
 
-### Network Configuration
-- Default DNS Service: 8.8.8.8 (Port 53)
-- Valid Port Range: 1024-65535
-- Socket Buffer Size: 1024 bytes
-- Server Backlog: 5 connections
-- Server Check Interval: 1 second
-- Inactivity Timeout: 600 seconds (10 minutes)
-- Connection Timeout: 5 seconds
-
-### Constants
-```python
-INACTIVITY_TIMEOUT_SECONDS = 600
-CONNECTION_TIMEOUT_SECONDS = 5
-SOCKET_BUFFER_SIZE = 1024
-SERVER_BACKLOG = 5
-SERVER_CHECK_INTERVAL = 1
-```
-
-## Installation
-
-1. **Clone the Repository**
-```bash
-git clone https://github.com/yourusername/CRYPTOSPHERE.git
-cd CRYPTOSPHERE
-```
-
-2. **Verify Python Installation**
-```bash
-python --version  # Should be Python 3.x
-```
-
-3. **Run the Application**
-```bash
-python P2P_TCP.py
-```
 
 ## Usage
 
@@ -189,19 +126,6 @@ The application presents a menu with the following options:
    - Select option 6
    - Select peer to remove
 
-## Architecture
-
-### Class Structure
-
-1. **NetworkPeer Class**
-```python
-class NetworkPeer:
-    def __init__(self, ip_address, port_number):
-        self.ip_address = ip_address
-        self.port_number = port_number
-        self.last_activity_timestamp = time.time()
-```
-
 ### Key Components
 
 1. **Network Management**
@@ -220,31 +144,6 @@ class NetworkPeer:
    - Team identifier: `@ <TEAM>`
    - End marker: `<end>`
 
-## Error Handling
-
-### Network Errors
-- Connection timeouts
-- Invalid peer connections
-- Port binding failures
-- Socket errors
-
-### User Input Errors
-- Invalid port numbers
-- Incorrect IP addresses
-- Invalid menu selections
-
-### System Errors
-- Resource allocation failures
-- Thread management issues
-- Memory management
-
-## Notes
-
-- Ensure proper network connectivity before running
-- Keep track of port numbers in use
-- Monitor system resources for optimal performance
-- Regular cleanup of inactive connections recommended
-- All the peers should be connected to same network
 
 ## Future Enhancements
 
