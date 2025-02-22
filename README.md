@@ -71,14 +71,10 @@ python --version  # Should be Python 3.x
 
 ### Starting the Application
 
-1. Launch the application:
+Launch the application:
 ```bash
 python P2P_TCP.py
 ```
-
-2. Initial Setup:
-   - Enter your Team name when prompted
-   - Enter your desired port number (1024-65535)
 
 ### Main Menu Navigation
 
