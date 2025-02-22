@@ -246,10 +246,6 @@ class NetworkPeer:
 4. Push to the branch
 5. Create a Pull Request
 
-## License
-
-[Specify your license here]
-
 ## Notes
 
 - Ensure proper network connectivity before running
