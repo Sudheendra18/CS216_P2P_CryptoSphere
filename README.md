@@ -1,7 +1,7 @@
 # CryptoSphere
 BLOCKCHAIN ASSIGNMENT1
 # Project  Peer-to-Peer Chat Application 
-# Using TCP
+### Using TCP
 
 A robust peer-to-peer TCP networking application that enables secure communication between network peers with features like real-time messaging, peer monitoring, and broadcast capabilities.
 
