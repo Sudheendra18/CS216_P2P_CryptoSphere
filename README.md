@@ -238,20 +238,13 @@ class NetworkPeer:
 - Thread management issues
 - Memory management
 
-## Contributing
-
-1. Fork the repository
-2. Create your feature branch
-3. Commit your changes
-4. Push to the branch
-5. Create a Pull Request
-
 ## Notes
 
 - Ensure proper network connectivity before running
 - Keep track of port numbers in use
 - Monitor system resources for optimal performance
 - Regular cleanup of inactive connections recommended
+- All the peers should be connected to same network
 
 ## Future Enhancements
 
